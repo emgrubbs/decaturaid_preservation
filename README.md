@@ -1,3 +1,3 @@
-"KFC: Kitten Football Camp" - Odin Project Assignment 
+"KFC: Kitten Football Camp"
 
-This project is an Odin Project assignment. I built this website in order to practice writing HTML and CSS, attempting to recreate the website image given by The Odin Project.
+This website is an Odin Project assignment, a practice in writing HTML and CSS.
