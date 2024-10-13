@@ -10,7 +10,7 @@ body {
    flex-direction: column;
    background-color: #1F2937;
    color: #F9FAF8;
-   padding: 13px 200px 40px 200px;
+   padding: 13px 110px 40px 110px;
    min-height: 400px;
    gap: 85px;
 }
@@ -18,8 +18,13 @@ body {
 .header {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    font-size: 24px;
    font-weight: 550; 
+}
+
+.header_right {
+   min-width: 200px;
 }
 
 ul {
@@ -27,7 +32,6 @@ ul {
    list-style-type: none;
    padding: 0;
    margin: 0;
-   display: flex;
    gap: 24px; 
 }
 
@@ -40,6 +44,7 @@ a {
 
 .hero {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    padding-top: 30px;
    gap: 40px;
@@ -60,13 +65,13 @@ a {
    line-height: 1.4;
 }
 
-.sub-main {
+.sub_main {
    font-size: 18px;
    font-weight: 300;
    line-height: 1.3;
 }
 
-.button-one {
+.button_one {
    border-radius: 7px;
    border: none;
    background-color: #3882f6;
@@ -93,7 +98,7 @@ a {
    align-items: center;
 }
 
-.info-header {
+.info_header {
    color: #1F2937;
    font-size: 36px;
    font-weight: 900;
@@ -101,11 +106,13 @@ a {
 
 .items {
    display: flex;
+   flex-wrap: wrap;
    gap: 36px;
    justify-content: center;
    color: #56575a;
    font-size: 16px;
    font-weight: 400;
+
 }
 
 .item {
@@ -157,7 +164,7 @@ a {
    padding: 45px 60px;
 }
 
-.inner-join {
+.inner_join {
    border-radius: 8px;
    display: flex;
    background: #3882f6;
@@ -169,19 +176,19 @@ a {
    gap: 250px;
 }
 
-.join-left {
+.join_left {
    text-align: left;
 }
 
-.big-message {
+.big_message {
    font-size: 20px;
 }
 
-.small-message {
+.small_message {
    font-size: 16px;
 }
 
-.button-two {
+.button_two {
    border-radius: 7px; 
    background-color: #3882f6;
    border: 2px solid #F9FAF8;
