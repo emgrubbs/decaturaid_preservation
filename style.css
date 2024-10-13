@@ -3,7 +3,6 @@ body {
    display: flex;
    flex-direction: column;
    margin: 0;
-   box-sizing: border-box; 
 }
 
 .top {
@@ -12,7 +11,7 @@ body {
    background-color: #1F2937;
    color: #F9FAF8;
    padding: 13px 200px 40px 200px;
-   height: 400px;
+   min-height: 400px;
    gap: 85px;
 }
 
@@ -32,12 +31,6 @@ ul {
    gap: 24px; 
 }
 
-li {
-   display: flex;
-   padding: 0;
-   margin: 0;
-}
-
 a {
    color: #E5E7EB;
    font-size: 18px;
@@ -47,25 +40,30 @@ a {
 
 .hero {
    display: flex;
-   justify-content: space-between;  
+   justify-content: space-between;
    padding-top: 30px;
-   display: flex;
    gap: 40px;
 }
 
-.hero-left {
+.hero_left {
+   max-width: 390px;
+   min-width: 250px;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
    gap: 16px;
 }
 
 .main {
    font-size: 36px;
    font-weight: 700;
+   line-height: 1.4;
 }
 
 .sub-main {
    font-size: 18px;
+   font-weight: 300;
+   line-height: 1.3;
 }
 
 .button-one {
@@ -75,13 +73,23 @@ a {
    padding: 8px 24px;
 }
 
+.hero_right {
+   max-width: 360px;
+}
+
+.top_img {
+   width: 340px;
+   height: auto;
+}
+
 .info {
-   height: 325px;
+   min-height: 370px;
    text-align: center;
-   padding: 30px;
+   padding: 25px;
    display: flex;
    flex-direction: column;
-   gap: 20px;
+   gap: 35px;
+   justify-content: center;
    align-items: center;
 }
 
@@ -120,8 +128,8 @@ a {
    background-color: #E5E7EB;
    font-family: sans-serif;
    color: #1F2937;    
-   height: 350px;
-   padding: 50px 100px;
+   min-height: 350px;
+   padding: 50px 80px;
 }
 
 .quote {
@@ -137,7 +145,7 @@ a {
    font-size: 24px;
    font-weight: 500px;
    text-align: right;
-   padding: 13px 185px 40px 155px;
+   padding: 13px 260px 40px 155px;
 }
 
 .join {
@@ -145,7 +153,7 @@ a {
    justify-content: center;
    align-items: center;
    color: white;
-   height: 275px;
+   min-height: 300px;
    padding: 45px 60px;
 }
 
@@ -155,7 +163,7 @@ a {
    background: #3882f6;
    padding: 25px 65px;
    width: 700px;
-   height: 100px;
+   min-height: 100px;
    align-items: center;
    justify-content: center;
    gap: 250px;
@@ -171,12 +179,10 @@ a {
 
 .small-message {
    font-size: 16px;
-   color: #E5E7EB;
 }
 
 .button-two {
    border-radius: 7px; 
-   color: #F9FAF8;
    background-color: #3882f6;
    border: 2px solid #F9FAF8;
    padding: 8px 24px;
@@ -185,7 +191,7 @@ a {
 .footer {
    background-color: #1F2937;
    color: #F9FAF8;
-   height: 75px;
+   min-height: 75px;
    text-align: center;
    padding: 20px;
    display: flex;
@@ -202,3 +208,4 @@ a {
    color: #F9FAF8;
    padding: 13px 155px 40px 155px;
 }
+
